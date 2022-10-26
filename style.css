@@ -1,0 +1,355 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* 기본세팅 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Noto Sans KR", sans-serif !important;
+    background-color: #fafafa;
+    overflow-x: hidden;
+    }
+  
+  /* 탑 이벤트 배너 */
+
+  .top-banner-layout {
+    witdh: 1200px;
+  }
+
+  .top-banner-contents {
+    padding: 27px 0px 28px;
+    background-color: #222;
+    margin: auto 0;
+    position: sticky;
+    justify-content: space-between;
+    padding-left: 850px;
+  }
+
+  .top-banner .top-banner-contents .top-banner-text {
+    color: #fff;
+    text-align: center;
+  }
+
+  .top-banner .top-banner-close {
+    position: absolute;
+    border: 0;
+    outline: 0;
+    top: 20px;
+    left: 1525px;
+    background-color: transparent;
+    padding-top: 2px;
+  }
+  
+/* header */
+
+  .atny-header {
+    width: 100%
+    height: 150px;
+    background-color: #fff;
+    justify-content: space-between;
+  }
+  
+
+  /* 탭 */
+
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 360px;
+    font-weight: 500;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .tabs .left-tabs2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 21px;
+  }
+
+  .tabs .right-tabs2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 21px;
+  }
+
+
+  /* main banner */
+
+  .main-banner .bg-img {
+    margin-bottom: 80px;
+  }
+  
+  .bg-img .banner-marketing-text {
+    font-size: 56px;
+    font-weight: bold;
+    position: absolute;
+    top: 520px;
+    right: 360px;
+    text-align: right;
+    line-height: 70px;
+  }
+
+  .main-banner .slide-btn {
+    float: right;
+    margin-right: 360px;
+  }
+
+  .main-banner .slide-btn ul {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: absolute;
+    top: 800px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .tab-bottom-line {
+   background: #eee;
+   height:1px;
+   border:0;
+  }
+
+/* 투데이 타임특가 */
+
+ .todaysale .today-time-sale {
+   font-size: 36px;
+   font-weight: bold;
+   margin-left: 360px;
+   margin-bottom: 40px;
+ }
+
+ .todaysale .slides {
+   display: flex;
+   flex-direction: row;
+   margin-left: 325px;
+
+  }
+ .todaysale .slides .left-arrow {
+   border: 0;
+   outline: 0;
+   background-color: transparent;
+   padding-right: 35px;
+   padding-bottom: 110px;
+ }
+
+ .todaysale .slides .right-arrow {
+   border: 0;
+   outline: 0;
+   background-color: transparent;
+   padding-left: 35px;
+   padding-bottom: 110px;   
+ }
+
+ .todaysale .items {
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+ }
+
+ .todaysale .product-bookmark {
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+   position: absolute;
+   padding-left: 340px;
+   padding-top: 15px;
+   outline: 0;
+   border: 0;
+   background-color: transparent;
+ }
+
+ .todaysale .items .time {
+   width: 372px;
+   height: 50px;
+   text-align: center;
+   vertical-align: middle;
+   padding-top: 15px;
+   position: relative;
+   background-color: #333;
+   color: #fff;
+   margin-bottom: 20px;
+ }
+ 
+
+ .todaysale .hyper-link {
+   text-decoration: none;
+ }
+
+ .todaysale .brand-name {
+   text-decoration: none;
+   color: #333;
+   font-weight: 500;
+   font-size: 16pt;
+ }
+
+ .todaysale .product-info {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .todaysale .product-info .CostAndPercent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 20px;
+ }
+
+ .todaysale .product-info .product-name {
+   font-size: 16pt;
+   color: #333;
+   font-weight: 400;
+ }
+
+ .todaysale .product-info .CostAndPercent .product-cost {
+   font-size: 16pt;
+   color: #333;
+   font-weight: bold;
+ }
+
+ .todaysale .product-info .CostAndPercent .sale-percentage {
+   color:#b1a138;
+   font-size: 16pt;
+   
+ }
+
+ .middle-line2 {
+   margin-top: 80px;
+   margin-bottom: 80px;
+   background: #e5e5e5;
+   height:1px;
+   border:0;
+ }
+
+ /* 신상품이 도착했어요 */
+
+ .new-arrive-title {
+   font-size: 36px;
+   font-weight: bold;
+   margin-left: 360px;
+ }
+
+ .new-arrive .tab-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 40px;
+  margin-left: 360px;
+ }
+
+ .new-arrive .tab .box {
+   display: flex;
+   flex-direction: row;
+   background-color: #eee;
+   border-radius: 50px;
+   height: 50px;
+   width: 74px;
+   
+ }
+
+ .new-arrive .tab-wrap .box li {
+  font-size: 16px;
+  position: relative;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  padding-top: 15px;
+ }
+
+ .new-arrive .items-wrap-flex {
+   display: flex;
+   flex-direction: column;
+   margin-left: 360px;
+   margin-top: 40px;
+   gap: 30px;
+ }
+
+ .new-arrive .new-arrive-items {
+   display: flex;
+   flex-direction: flex;
+   gap: 30px;
+ }
+
+ .new-arrive .new-arrive-items .product-bookmark {
+   border: 0;
+   outline: 0;
+   background-color: transparent;
+   position: absolute;
+   padding-top: 15px;
+   padding-left: 240px;
+ }
+
+ .new-arrive .hyper-link {
+  text-decoration: none;
+}
+
+ .new-arrive .new-arrive-items .imageAndbrandname {
+  display: flex;
+  flex-direction: column;
+ }
+ .new-arrive .new-arrive-items .brand-name {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16pt;
+ }
+
+ .new-arrive .new-arrive-items .product-name {
+   color: #333;
+ }
+
+ .new-arrive .new-arrive-items .CostAndPercent {
+  margin-top: 20px;
+ }
+
+ .new-arrive .new-arrive-items .product-cost {
+   font-weight: bold;
+   font-size: 16pt;
+   color: #333;
+ }
+
+ .new-arrive .new-arrive-items .sale-percentage {
+  font-size: 16pt;
+  color: #b1a138;
+  margin-left: 10px;
+ }
+
+ .view-more {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   padding: 18px 38px 15px 38px;
+   border: 2px solid #333;
+   outline: 1px;
+   background-color: transparent;
+   font-size: 16pt;
+   margin: 0 auto;
+   margin-top: 60px;
+   justify-content: center;
+   align-items: center;
+
+  }
+
+  .middle-line3 {
+    margin: 80px auto;
+    height: 1px;
+    background-color: #e5e5e5;
+    border: 0;
+  }
+
+  .ad-banner {
+    margin-bottom: 80px;
+  }
+
+  
